@@ -1,17 +1,9 @@
 # Static/Landing Page Generic Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This template will be comprised of responsive navbar with site titme and hamburgermenu, followed by a 2 item grid. 
 
-## Available Scripts
+## More to come...
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 
