@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import { ThemeProvider } from "@mui/material/styles";
+import { mainTheme } from "./styles/MainTheme";
+import CssBaseline from "@mui/material/CssBaseline";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "@fontsource/roboto/300.css";
@@ -11,7 +14,10 @@ import "@fontsource/roboto/700.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <CssBaseline />
+    <ThemeProvider theme={mainTheme}>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );
 
