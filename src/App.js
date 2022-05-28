@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div>
+    <Box sx={{ display: "flex" }}>
       <Navbar />{" "}
-    </div>
+    </Box>
   );
 }
 
