@@ -7,7 +7,7 @@ import NavMenu from "./NavMenu";
 const Navbar = () => {
   return (
     <AppBar>
-      <Toolbar>
+      <Toolbar sx={{ width: "100%", justifyContent: "space-between" }}>
         <Typography>App Title</Typography>
         <NavMenu />
       </Toolbar>
